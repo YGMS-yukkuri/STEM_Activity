@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "test-1",
+			"path": "../../test-1"
+		},
+		{
+			"name": "test",
+			"path": "../../../test"
+		},
+		{
+			"name": "ASK",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ASK"
+	}
+}

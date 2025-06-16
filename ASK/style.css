@@ -1,0 +1,178 @@
+body{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(255, 255, 84);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+header img{
+    height: 40px;
+    margin: 0px;
+    padding: 5px;
+    float: left;
+}
+.links{
+    padding: 15px;
+}
+.links a{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.MainPic {
+    position: relative;
+}
+.MainPic img{
+    width: 100%;
+}
+.text1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.news{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.newstitle{
+    display: flex;
+    align-items: center;
+
+}
+.newstitle h1{
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+.newstitle p{
+    margin: 0;
+    border: solid 1px;
+    border-radius: 40px;
+    padding: 0 10px 0px 10px;
+}
+.newscontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.newsblock{
+    width: 23%;
+    
+}
+.newsblock img{
+    width: 100%;
+}
+.newsblock h5{
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.CONTENT{
+    padding-top: 20px;
+    padding-bottom: 80px;
+    background-color: #eefdee;
+}
+.box{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contenttitle{
+    display: flex;
+    align-items: center;
+}
+.contenttitle h1{
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+.contenttitle p{
+    margin: 0;
+    border: solid 1px;
+    border-radius: 40px;
+    padding: 0 10px 0px 10px;
+}
+.contentbox{
+    display: flex;
+    justify-content: space-around;
+}
+.CONTENTwindow{
+    width: 50%;
+}
+.CONTENTblock{
+    position: relative;
+    margin: 10px 40px 10px 40px;
+}
+.CONTENTblock img{
+    width: 80%;
+}
+.contenttext{
+    background-color: rgb(255, 255, 84, 0.8);
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    translate: -50% , -50%;
+    width: 60%;
+    padding: 10px;
+}
+.contenttext h4{
+    margin: 0 50px 0 10px;
+    font-weight: bold;
+}
+.contenttext p{
+    margin: 0 100px 0 10px;
+    font-weight: bold;
+}
+
+.ACCESS{
+    margin: auto;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.accesstitle{
+    display: flex;
+    align-items: center;
+}
+.accesstitle h1{
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+.accesstitle p{
+    margin: 0;
+    border: solid 1px;
+    border-radius: 40px;
+    padding: 0 10px 0px 10px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+}
+.map iframe{
+    display: flex;
+    width: 80%;
+    height: 300px;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
